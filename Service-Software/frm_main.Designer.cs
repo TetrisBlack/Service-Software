@@ -1,6 +1,6 @@
 ﻿namespace Service_Software
 {
-    partial class Form1
+    partial class frm_main
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frm_main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Name = "frm_main";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frm_main_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
